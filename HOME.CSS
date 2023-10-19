@@ -1,0 +1,335 @@
+                            /* reset */
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+                    /* th head */
+.head{
+background-color:#F3F7FF;
+margin-top: -10px;
+position: fixed;
+width: 100%;
+}
+.nav{
+    margin-left: 850px;
+    padding-top: 25px;
+    border-bottom: #F3F7FF;
+    padding-bottom: 20px;
+  
+}
+.nav ul{
+    display: flex;
+    gap: 40px;
+}
+.nav li{
+    list-style-type: none;
+}
+.nav button{
+    padding: 10px 20px;
+ background-color: #17BAD1;
+    border-radius: 30px;
+    border: hidden;
+    color: white;
+    box-shadow: 5px 5px 5px #17BAD1;
+
+}
+.nav button:hover{
+    background-color: #1084D5;
+     
+}
+                         /* main content */
+.main{
+    background-color: #F3F7FF;
+    padding-bottom: 30px;
+}
+.cont{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+.content{
+    margin-left: 50px;  
+     font-size: 30px;
+} 
+.content p{
+    margin-top: 60px;
+    font-size: 19px;
+}
+.Want{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 19px;
+}
+.Want h3{
+    color: #0DCEF4;
+}
+.Want button{
+    background-color: #0DCEF4;
+    color: white;
+    padding: 10px 20px;
+    border: none ;
+    font-size: 19px;
+    border-radius: 30px;
+}
+                                     /* middle */
+
+.article{
+background-color: #FDFEFF;
+margin-top: -10px;
+padding: 30px;
+}
+.span{
+    padding: 30px;
+    display:flex ;
+}
+.article h1{
+text-align: center;
+color: #0DCAF0;
+margin-top: 40px;
+font-size: 40px;
+}
+.largest{
+    background-color: white;
+    width: 20%;
+    margin-left: 60px;
+    border: solid white;
+    border-radius: 10px;
+    box-shadow: rgb(238,239,240);
+    padding: 50px;
+    
+
+}
+.spa{
+    background-image: url(IMAGE/banner.png);
+    width: 100%;
+}
+.spa image{
+    margin-top: -200px;
+}
+.spa{
+    padding: 30px;
+    display:flex ;
+
+}
+.use{
+    background-image: url(IMAGE/IMAGE1.jpg);
+     margin-top: -100px;
+     padding-top: 150px;
+     background-size: cover;
+}
+.use h1{
+ font-size: 31px;
+    margin-left: 200px;
+    color: white;
+}
+.PICK h3{
+   margin-left: 250px; 
+   font-size: 20px;
+   color: #17BAD1;
+   margin-top: 100px;
+}
+.PICK p{
+    margin-left: 180px;
+    font-size: 17px;
+    color: white;
+} 
+ .DRIVER h3{
+    margin-top: 50px;
+     margin-left: 405px; 
+     font-size: 20px;
+     color: #17BAD1;
+  }
+  .DRIVER p{
+      margin-left: 205px;
+      font-size: 17px;
+      color: white;
+  }
+  .CHAT h3{
+    margin-top: 50px;
+     margin-left: 410px; 
+     font-size: 20px;
+     color: #17BAD1;
+  }
+  .CHAT p{
+    color: white;
+      margin-left: 170px;
+      font-size: 17px;
+  }
+.CHAT img{
+    margin-top: -490px;
+    margin-left: 700px;
+    width: 440px;
+}
+                                 /* animation */
+.back{
+    background-image: url(IMAGE/ilustrasion-scene.png);
+    width: 100%;
+    overflow: hidden;
+    height: 50vh;
+    background-size: cover;
+    position:  absolute;
+    display: flex;
+}
+.car{
+    position: relative;
+     margin-top: 200px;
+     animation: car 19s infinite forwards;
+     animation-delay: 0ms;
+     transform: translateX(0%);
+}
+@keyframes  car {
+    from{
+left: -550px;
+    }
+    to{
+        left: 1200px;
+    }
+    100%{
+        transform: translateX(1000px);
+    }  
+}
+.truck{
+    position:  absolute;
+     margin-top: 200px;
+     animation: truck 25s linear  infinite forwards;
+     animation-delay: 0ms;
+     
+}
+@keyframes truck{
+    from{
+left: -550px;
+    }
+    to{
+        left: 1200px;
+    }
+    100%{
+        transform: translateX(1000px);
+    }  
+}
+.bike{
+    position:  absolute;
+     margin-top: 200px;
+     animation: bike 16s linear  infinite forwards;
+     animation-delay: 0ms;
+     
+}
+@keyframes bike{
+    from{
+left: -550px;
+    }
+    to{
+        left: 1200px;
+    }
+    100%{
+        transform: translateX(1000px);
+    }  
+}
+.bike1{
+    position:  absolute;
+     margin-top: 200px;
+     animation: bike1 14s linear  infinite forwards;
+     animation-delay: 0ms;
+     
+}
+@keyframes bike1{
+    from{
+left: -550px;
+    }
+    to{
+        left: 1200px;
+    }
+    100%{
+        transform: translateX(1000px);
+    }  
+}
+.bike1{
+    position:  absolute;
+     margin-top: 200px;
+     animation: bike1 14s linear  infinite forwards;
+     animation-delay: 0ms;
+     
+}
+@keyframes bike1{
+    from{
+left: -550px;
+    }
+    to{
+        left: 1200px;
+    }
+    100%{
+        transform: translateX(1000px);
+    }  
+}
+ 
+.rev{
+    position:  relative;
+     margin-top: 200px;
+     animation: rev 14s linear  infinite forwards;
+     animation-delay: 0ms;
+     
+}
+@keyframes rev{
+    from{
+left: 1200px;
+    }
+    to{
+        left: -550px;
+    }
+    100%{
+        transform: translateX(-1000px);
+    }  
+}
+.bike2{
+    position:  relative;
+     margin-top: 200px;
+     animation: bike2 11s linear  infinite forwards;
+     animation-delay: 0ms;
+     
+}
+@keyframes bike2{
+    from{
+left: 1200px;
+    }
+    to{
+        left: -550px;
+    }
+    100%{
+        transform: translateX(-1000px);
+    }  
+}
+ .footer{
+    background-color: #21222E;
+    margin-top: 310px;
+    padding: 100px 100px 20px 100px;
+    display: flex;
+ }
+  .COMPANY ul a{
+    color:  #54757D;
+    text-decoration: none;
+  }
+  .COMPANY ul{
+list-style-type: none;
+margin-left: 30px;
+font-size: 20px;
+  }
+ .button button{
+    padding:  20px 50px;
+    border-color: #0DCAF0;
+    color: #0DCAF0;
+    border-radius: 50px;
+    background-color: #21222E;
+    margin-left: 50px;
+ }
+ .button a button:hover{
+    background-color: #1586A1;
+    color: black;
+    border: none;
+ }
+  .copyright{
+   margin-top: 450px;
+   align-items: center;
+    color: white;
+   margin-left: -350px;
+  }
+ 
